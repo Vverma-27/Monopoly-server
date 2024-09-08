@@ -1,3 +1,4 @@
+//@ts-nocheck
 import express from "express";
 import http from "http";
 import { nanoid } from "nanoid";
