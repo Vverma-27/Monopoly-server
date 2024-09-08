@@ -7,9 +7,10 @@
     "dev": "nodemon --legacy-watch --exec tsx ./index.ts",
     "ngrok": "ngrok http 3000",
     "lt": "lt -p 3000",
-    "build": "tsc -b",
+    "build": "tsc -b && node add-js-extensions.js",
     "lint": "eslint . --ext .ts,.tsx"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "description": "",
