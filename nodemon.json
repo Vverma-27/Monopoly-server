@@ -1,0 +1,13 @@
+{
+    "verbose": false,
+    "ignore": [
+        "client/**/*.ts"
+    ],
+    "watch": [
+        "**/*.ts",
+        ".env"
+    ],
+    "execMap": {
+        "ts": "node --inspect=0.0.0.0:9229 --nolazy -r ts-node/register"
+    }
+}
